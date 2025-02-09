@@ -251,14 +251,14 @@ Note: Make sure to replace `file.html`, `file.css`, and `file.js` with the actua
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](![Screenshot (2)](https://github.com/user-attachments/assets/d5ea1f7b-b947-4214-aae1-6a169d0ebe3b))
+*Add caption explaining what this shows* - This is the interface we get when we input the exam date and time providing motivation after a time at 0 seconds.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](![Screenshot 2025-02-09 102249](https://github.com/user-attachments/assets/a7c43d47-43f6-425c-892a-cdc51d5a7a51))
+*Add caption explaining what this shows* - Here the three placeholders indicate the input for entering date,time and and then starts the countdown and it displays when inpute the date and time of exam reminding us of how much time we have left for preparation.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](Add screenshot 3 here with proper name - ![WhatsApp Image 2025-02-09 at 10 43 31 AM](https://github.com/user-attachments/assets/c55d3c4f-0b4a-4781-b706-27f7b69b027a))
+*Add caption explaining what this shows* - This is javascript code that provides the actions of countdowwn for our web application.
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -274,30 +274,38 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Team](Add photo of your team here)
+![Team](Add photo of your team here! -[WhatsApp Image 2025-02-09 at 5 10 29 AM](https://github.com/user-attachments/assets/c3c8afc9-aa32-4ce1-8d63-0015fe2227ef))
 
 
-![Components](Add photo of your components here)
-*List out all components shown*
+![Components](Add photo of your components here-![WhatsApp Image 2025-02-09 at 10 49 18 AM](https://github.com/user-attachments/assets/85926d41-03a3-4df0-b3dc-24416cd51055))
+*List out all components shown* - in this simple web based application we have utilised html,css and javascript.Html to inpt data, css to provide styles and beautification to the code and javascript for performing the actions
 
-![Build](Add photos of build process here)
-*Explain the build steps*
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![Build](Add photos of build process here-![WhatsApp Image 2025-02-09 at 10 43 31 AM](https://github.com/user-attachments/assets/29823c81-d7e3-4b8a-9764-fadc03178373))
+*Explain the build steps*-This Exam Countdown Timer allows users to input their exam date and time, then calculates and displays the time remaining. It updates every second and, when only 10 seconds remain, shows a random motivational quote and plays an audio clip for encouragement. Once the countdown reaches zero, it displays "Exam Started!" and plays the motivational audio again. 🚀📚.The steps involved includes The HTML structure includes input fields for the exam date and time, a button to start the countdown, and elements to display the timer and motivational messages. The CSS styles the page with a background image, formatted text, and responsive design for different screen sizes. The JavaScript retrieves user input, calculates the remaining time, and updates the countdown every second. When only 10 seconds remain, it displays a motivational quote and plays an audio reminder. Once the timer hits zero, it shows "Exam Started!" and plays the audio again. The countdown logic ensures real-time updates and enhances user engagement. 🚀📚
+
+![Final](Add photo of final product here -![Screenshot 2025-02-09 102249](https://github.com/user-attachments/assets/01cebb64-4da4-49e0-b25c-f348f07acac9))
+*Explain the final build*-  Exam Remainder System
+The Exam Remainder System is a web-based application that allows students to set reminders for upcoming exams and tests. The system sends notifications to the students before the exam date, helping them stay on track and prepare well.Once started, the timer continuously updates, providing a real-time countdown to the selected exam.
+
+Features
+- Set reminders for upcoming exams and tests
+- Receive notifications before the exam date
+- View upcoming exams and tests in a calendar
+- Edit and delete reminders as needed
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[Add your demo video link here-![Screenshot 2025-02-09 104014](https://github.com/user-attachments/assets/2f584dc3-864b-4a0e-80c6-d5b6c9d8ad87)]
+*Explain what the video demonstrates*--The screen recording showcases the development of an "Exam Countdown" webpage using HTML, CSS, and JavaScript. The video captures a coding environment, where the user is working on an index.html file, along with a linked CSS file (style.css) and a JavaScript script (script.js). The page includes an input field for entering an exam time, a countdown display, and a motivational audio clip that plays when the countdown starts. Additionally, the extracted text suggests elements such as a title ("Exam Countdown"), a button to start the countdown, and an audio file named "ninakenthenkilum-oru-kazhivundo---naga-chechi-meme-made-with-Voicemod.mp3."
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Irene Ann Thomas]: []
-- [Swathi Gopan S]: []
-- [Linta George]: [Idea Presenter]
+- [Irene Ann Thomas]: [Frontend developer,Javascript logic and documentation]
+- [Swathi Gopan S]: [Frontend developer,Javascript logic and documentation]
+- [Linta George]: [Idea Presenter,Frontend Developer and documentation]
 
 ---
 Made with ❤️ at TinkerHub
