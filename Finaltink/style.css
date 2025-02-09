@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ffcc00;
+}
+
+/* Form Styles */
+input[type="date"],
+input[type="time"],
+button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 300px;
+}
+
+input[type="date"],
+input[type="time"] {
+    background-color: #0ec823;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ffcc00;
+    cursor: pointer;
+    color: #1c68b5;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+/* Countdown and Motivation Styles */
+#countdown {
+    font-size: 28px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+#motivation {
+    font-size: 22px;
+    margin-top: 10px;
+    font-style: italic;
+    color: #ffcc00;
+}
+
+/* Small screen adjustments */
+@media (max-width: 600px) {
+    input[type="date"],
+    input[type="time"],
+    button {
+        width: 80%;
+    }
+}

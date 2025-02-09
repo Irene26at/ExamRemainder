@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>EXAM REMINDER!!!!!!!</h1>
+
+    <label for="examDateInput">Enter Exam Date:</label>
+    <input type="date" id="examDateInput" required>
+
+    <label for="examTimeInput">Enter Exam Time:</label>
+    <input type="time" id="examTimeInput" required>
+
+    <!-- Button to start the countdown -->
+    <button onclick="startCountdown()">Start Countdown</button>
+
+    <!-- Element to display the countdown -->
+    <div id="countdown"></div>
+
+    <h2 id="motivation"></h2>
+
+    <audio id="motivationaudio">
+        <source src="ninakenthenkilum-oru-kazhivundo---naga-chechi-meme-made-with-Voicemod.mp3" type="audio/mp3">
+        Your browser doesn't support audio.
+    </audio>
+
+    <!-- External JS script -->
+    <script src="script.js"></script>
+</body>
+</html>
